@@ -1,0 +1,30 @@
+.header {
+    font-family: 'Valorant';
+    color: #fefe;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 25px;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 238, 255, 0.249);
+    animation: upperMove 1s ease-in-out;
+}
+
+.logo {
+    width: 75px;
+    height: 40px;
+}
+
+.option {
+    transition: .5s;
+}
+
+.option:hover {
+    transform: scale(1.1);
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}

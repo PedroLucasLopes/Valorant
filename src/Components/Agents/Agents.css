@@ -1,0 +1,10 @@
+.agents-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.title {
+    font-family: 'Valorant';
+    color: #fefe;
+    animation: leftMove .5s ease-out;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: url('./assets/valorant-background.jpeg') center center;
+}
+
+@font-face {
+  font-family: 'Valorant';
+  src: url('./fonts/valorant.ttf');
+}
+
+.container {
+  margin: 2rem 5rem;
+}
+
+@keyframes leftMove {
+  from {
+    transform: translate3d(-50px, 0, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes upperMove {
+  from {
+    transform: translate3d(0, -50px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes downMove {
+  from {
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}

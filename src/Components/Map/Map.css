@@ -1,0 +1,25 @@
+.map-background {
+    width: 100%;
+    height: 39rem;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.phase-title {
+    margin-top: 20rem;
+    animation: downMove .5s;
+}
+
+.background-title {
+    font-family: "Valorant";
+    color: #fefe;
+    font-size: 13rem;
+}
+
+.background-subtitle {
+    font-family: "Valorant";
+    color: #fefe;
+    font-size: 1.5rem;
+    margin-left: .8rem;
+}

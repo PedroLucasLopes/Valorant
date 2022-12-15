@@ -1,0 +1,78 @@
+.agent-info {
+    margin: 1.5rem 2rem 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    position: relative;
+}
+
+.agent-name {
+    font-size: 5rem;
+}
+
+.agent-desc {
+    margin-top: 1.5rem;
+}
+
+.subtitle {
+    padding: 0 25rem 0 0;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: rgb(191, 191, 191);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1000;
+    animation: upperMove .5s ease-out;
+}
+
+.agent-tag {
+    font-size: 1.1rem;
+    color: rgb(191, 191, 191);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: upperMove .5s ease-out;
+    font-weight: bold;
+}
+
+.agent-hab {
+    font-size: 3rem;
+    text-align: right;
+}
+
+.agent-image {
+    position: absolute;
+    width: 70%;
+    margin-top: -5rem;
+    margin-left: 10rem;
+    z-index: -1;
+    animation: upperMove .5s ease-out;
+}
+
+.audio {
+    display: none;
+}
+
+.habilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1rem;
+    margin-right: -1rem;
+    gap: 30px;
+    animation: leftMove .5s ease-out;
+}
+
+.hab {
+    width: 5.5rem;
+    transition: .3s ease-out;
+}
+
+.hab:hover {
+    transform: scale(1.1);
+}
+
+.hability-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
