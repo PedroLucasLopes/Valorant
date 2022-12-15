@@ -1,0 +1,23 @@
+.video-home {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 88%, 85% 100%, 0 100%, 0% 70%, 0% 35%, 0 0);
+}
+
+.valorant-title {
+    margin-top: 30rem;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 5rem;
+    color: #fefe;
+    font-family: 'Thungsten';
+}
+
+.welcome-subtitle {
+    font-size: 2rem;
+    padding: 0 10rem;
+}

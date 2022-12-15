@@ -30,6 +30,11 @@ body {
   src: url('./fonts/valorant.ttf');
 }
 
+@font-face {
+  font-family: 'Thungsten';
+  src: url('./fonts/Tungsten-Bold.otf');
+}
+
 .container {
   margin: 2rem 5rem;
 }

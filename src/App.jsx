@@ -6,6 +6,7 @@ import { Agents } from './Components/Agents/Agents.jsx';
 import { Agent } from './Components/Agent/Agent.jsx';
 import { Maps } from './Components/Maps/Maps.jsx';
 import { Map } from './Components/Map/Map.jsx';
+import { Footer } from './Components/Footer/Footer.jsx';
 import './App.css';
 import './fonts/valorant.ttf';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/maps' element={<Maps />} />
           <Route path='/maps/:id' element={<Map />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )
