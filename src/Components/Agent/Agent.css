@@ -96,3 +96,10 @@
 .hab:hover~.hab-desc {
     display: block;
 }
+
+.hability-name {
+    display: block;
+    font-family: 'Valorant';
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}

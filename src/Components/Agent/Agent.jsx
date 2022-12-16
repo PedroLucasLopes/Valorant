@@ -29,7 +29,10 @@ export const Agent = () => {
                         return (
                             <div key={ability.displayName} className='hability-box'>
                                 <img src={ability.displayIcon} alt={ability.displayName} className='hab' />
-                                <p className='hab-desc'>{ability.description}</p>
+                                <p className='hab-desc'>
+                                    <span className='hability-name'>{ability.displayName.replace('ç', 'c').replace('é', 'e').replace('ô', 'o').replace('ó', 'o').replace('á', 'a')}</span>
+                                    {ability.description}
+                                </p>
                             </div>
                         )
                     })}
