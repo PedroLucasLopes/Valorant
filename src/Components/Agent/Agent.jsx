@@ -28,7 +28,8 @@ export const Agent = () => {
                     {agent.abilities.map((ability) => {
                         return (
                             <div key={ability.displayName} className='hability-box'>
-                                <img src={ability.displayIcon} alt={ability.displayName} className='hab' title={ability.description} />
+                                <img src={ability.displayIcon} alt={ability.displayName} className='hab' />
+                                <p className='hab-desc'>{ability.description}</p>
                             </div>
                         )
                     })}

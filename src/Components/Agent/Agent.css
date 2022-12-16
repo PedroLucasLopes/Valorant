@@ -75,4 +75,24 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    position: relative;
+}
+
+.hab-desc {
+    position: absolute;
+    width: 25rem;
+    text-align: right;
+    right: 5.8rem;
+    color: #fefe;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(31, 27, 27);
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 13% 100%, 8% 93%, 0 80%, 0% 35%, 0 0);
+    padding: .8rem;
+    border-radius: 3px;
+    animation: rightMove .5s ease-out;
+    display: none;
+}
+
+.hab:hover~.hab-desc {
+    display: block;
 }
