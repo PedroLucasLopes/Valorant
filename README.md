@@ -7,8 +7,8 @@
   <strong>US</strong> Valorant is a famous online game that provides a fun API for consumption on the front-end, in which we can pay for any and all game assets through the return of the API endpoints, so we can develop unique and diverse projects!
 </p>
 <h2 align="left">🖼️ Screenshots</h1>
-<img src="./src/assets/main.png" />
-<img src="./src/assets/maps.png" width="50px"/>
+<img src="./src/assets/main.PNG" />
+<img src="./src/assets/maps.PNG" />
 <h2 align="left">👨‍💻 Technologies</h1>
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
