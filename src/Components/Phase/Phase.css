@@ -7,10 +7,10 @@
     font-family: 'valorant';
     text-align: center;
     transition: .5s;
-    letter-spacing: -12px;
+    letter-spacing: -8px;
 }
 
 .title-map:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     letter-spacing: 0;
 }
